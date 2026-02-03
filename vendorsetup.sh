@@ -57,8 +57,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# flashlight
 	export OF_FLASHLIGHT_ENABLE=0
     
-	# R11
-	export FOX_VERSION="R11.1_1"
+	# R12
 	export FOX_VARIANT=Stable
 	export OF_PATCH_AVB20=1
 	export OF_MAINTAINER="IMY"
